@@ -1,14 +1,15 @@
 includes:
-    - phpstan-baseline.neon
+    - ./vendor/phpstan/phpstan-webmozart-assert/extension.neon
+    - ./vendor/thecodingmachine/phpstan-safe-rule/phpstan-safe-rule.neon
+    - ./vendor/nunomaduro/larastan/extension.neon
 
 parameters:
-    level: 4
+    level: 9
     paths:
         - src
         - config
-        - database
     tmpDir: build/phpstan
     checkOctaneCompatibility: true
     checkModelProperties: true
-    checkMissingIterableValueType: false
+    checkMissingIterableValueType: true
 

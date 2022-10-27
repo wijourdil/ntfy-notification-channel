@@ -1,36 +1,32 @@
 <?php
 
-namespace VendorName\Skeleton\Tests;
+namespace Wijourdil\NtfyNotificationChannel\Tests;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use VendorName\Skeleton\SkeletonServiceProvider;
+use Wijourdil\NtfyNotificationChannel\NtfyNotificationChannelServiceProvider;
+use Wijourdil\NtfyNotificationChannel\Services\AbstractSendService;
+use Wijourdil\NtfyNotificationChannel\Services\FakeSendService;
 
-class TestCase extends Orchestra
+abstract class TestCase extends Orchestra
 {
     protected function setUp(): void
     {
         parent::setUp();
 
-        Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'VendorName\\Skeleton\\Database\\Factories\\'.class_basename($modelName).'Factory'
-        );
+        FakeSendService::reset();
+
+        $this->app->bind(AbstractSendService::class, FakeSendService::class);
     }
 
     protected function getPackageProviders($app)
     {
         return [
-            SkeletonServiceProvider::class,
+            NtfyNotificationChannelServiceProvider::class,
         ];
     }
 
     public function getEnvironmentSetUp($app)
     {
         config()->set('database.default', 'testing');
-
-        /*
-        $migration = include __DIR__.'/../database/migrations/create_skeleton_table.php.stub';
-        $migration->up();
-        */
     }
 }
