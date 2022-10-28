@@ -12,6 +12,7 @@ class FakeSendService extends AbstractSendService
 {
     private static ?Message $lastSentMessage = null;
 
+    /** @var array<string,mixed> */
     private static array $lastSentMessageConfig = [];
 
     public static function reset(): void
@@ -29,7 +30,7 @@ class FakeSendService extends AbstractSendService
     {
         PHPUnit::assertNotNull(self::$lastSentMessage);
         PHPUnit::assertEquals(
-            self::$lastSentMessage->getData(),
+            self::$lastSentMessage?->getData(),
             $message->getData()
         );
     }

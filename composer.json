@@ -30,7 +30,6 @@
         "nunomaduro/collision": "^6.0",
         "nunomaduro/larastan": "^2.0.1",
         "orchestra/testbench": "^7.0",
-        "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan-deprecation-rules": "^1.0",
         "phpstan/phpstan-phpunit": "^1.0",
         "phpstan/phpstan-webmozart-assert": "^1.2",
@@ -55,11 +54,7 @@
         "format": "vendor/bin/pint"
     },
     "config": {
-        "sort-packages": true,
-        "allow-plugins": {
-            "pestphp/pest-plugin": false,
-            "phpstan/extension-installer": false
-        }
+        "sort-packages": true
     },
     "extra": {
         "laravel": {
