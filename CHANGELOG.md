@@ -5,6 +5,18 @@
 
 ### Changed
 
+- 🚨 Fix phpstan error ([#3](https://github.com/wijourdil/ntfy-notification-channel/issues/3)) [[42d60c7](https://github.com/wijourdil/ntfy-notification-channel/commit/42d60c77ea96b2204c856c8ad5b42d7f1a5c3baf)]
+
+### Miscellaneous
+
+- 📝 generated changelog [[c90bdcf](https://github.com/wijourdil/ntfy-notification-channel/commit/c90bdcf0457747af80b1ded929f8103a09171cd3)]
+
+
+<a name="1.0.3"></a>
+## 1.0.3 (2022-11-29)
+
+### Changed
+
 - ⬆️ Bump ramsey/composer-install from 1 to 2 ([#2](https://github.com/wijourdil/ntfy-notification-channel/issues/2)) [[94b6d3e](https://github.com/wijourdil/ntfy-notification-channel/commit/94b6d3eab7b7746bdf56c4b83e32be2e595b8990)]
 
 ### Miscellaneous
