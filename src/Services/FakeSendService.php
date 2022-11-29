@@ -30,7 +30,7 @@ class FakeSendService extends AbstractSendService
     {
         PHPUnit::assertNotNull(self::$lastSentMessage);
         PHPUnit::assertEquals(
-            self::$lastSentMessage?->getData(),
+            self::$lastSentMessage->getData(),
             $message->getData()
         );
     }
