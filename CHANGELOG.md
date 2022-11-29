@@ -9,6 +9,8 @@
 
 ### Miscellaneous
 
+-  👷 Bump dependabot/fetch-metadata from 1.3.4 to 1.3.5 ([#1](https://github.com/wijourdil/ntfy-notification-channel/issues/1)) [[f1bd221](https://github.com/wijourdil/ntfy-notification-channel/commit/f1bd22162ab929f6e07bcfafcd14831d49235227)]
+- 📝 generated changelog [[f21a5e4](https://github.com/wijourdil/ntfy-notification-channel/commit/f21a5e480ed91410f43d8345c204cd0371290856)]
 - 📝 generated changelog [[64ae443](https://github.com/wijourdil/ntfy-notification-channel/commit/64ae443d88f0724b6325e2d18a49dc057e29dc19)]
 
 
