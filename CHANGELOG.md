@@ -1,5 +1,17 @@
 # Changelog
 
+<a name="next"></a>
+## next
+
+### Changed
+
+- ⬆️ Bump ramsey/composer-install from 1 to 2 ([#2](https://github.com/wijourdil/ntfy-notification-channel/issues/2)) [[94b6d3e](https://github.com/wijourdil/ntfy-notification-channel/commit/94b6d3eab7b7746bdf56c4b83e32be2e595b8990)]
+
+### Miscellaneous
+
+- 📝 generated changelog [[64ae443](https://github.com/wijourdil/ntfy-notification-channel/commit/64ae443d88f0724b6325e2d18a49dc057e29dc19)]
+
+
 <a name="1.0.2"></a>
 ## 1.0.2 (2022-10-28)
 
