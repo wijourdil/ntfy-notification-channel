@@ -3,6 +3,15 @@
 <a name="next"></a>
 ## next
 
+### Miscellaneous
+
+- 🔀 ⬆️ Bump aglipanci/laravel-pint-action from 1.0.0 to 2.1.0 ([#4](https://github.com/wijourdil/ntfy-notification-channel/issues/4)) [[653ae80](https://github.com/wijourdil/ntfy-notification-channel/commit/653ae80f50ef25b279979eb8e51c83dcfdd63162)]
+- 📝 generated changelog [[7764417](https://github.com/wijourdil/ntfy-notification-channel/commit/7764417ed5972e1b9613f05867abe8892f67396f)]
+
+
+<a name="1.0.4"></a>
+## 1.0.4 (2022-11-29)
+
 ### Changed
 
 - 🚨 Fix phpstan error ([#3](https://github.com/wijourdil/ntfy-notification-channel/issues/3)) [[42d60c7](https://github.com/wijourdil/ntfy-notification-channel/commit/42d60c77ea96b2204c856c8ad5b42d7f1a5c3baf)]
