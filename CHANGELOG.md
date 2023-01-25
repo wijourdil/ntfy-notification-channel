@@ -6,6 +6,7 @@
 ### Miscellaneous
 
 - 🔀 ⬆️ Update for PHP8.2 ([#5](https://github.com/wijourdil/ntfy-notification-channel/issues/5)) [[a6642fc](https://github.com/wijourdil/ntfy-notification-channel/commit/a6642fc0746c2b00676583845a1f2a69eb3b0564)]
+- 📝 generated changelog [[75e65e4](https://github.com/wijourdil/ntfy-notification-channel/commit/75e65e4af22598c42070ab91faf9612792d6bde5)]
 
 
 <a name="1.0.5"></a>
