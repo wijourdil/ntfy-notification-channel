@@ -5,7 +5,16 @@
 
 ### Miscellaneous
 
+- 🔀 ⬆️ Update for PHP8.2 ([#5](https://github.com/wijourdil/ntfy-notification-channel/issues/5)) [[a6642fc](https://github.com/wijourdil/ntfy-notification-channel/commit/a6642fc0746c2b00676583845a1f2a69eb3b0564)]
+
+
+<a name="1.0.5"></a>
+## 1.0.5 (2023-01-03)
+
+### Miscellaneous
+
 - 🔀 ⬆️ Bump aglipanci/laravel-pint-action from 1.0.0 to 2.1.0 ([#4](https://github.com/wijourdil/ntfy-notification-channel/issues/4)) [[653ae80](https://github.com/wijourdil/ntfy-notification-channel/commit/653ae80f50ef25b279979eb8e51c83dcfdd63162)]
+- 📝 generated changelog [[0d5cd20](https://github.com/wijourdil/ntfy-notification-channel/commit/0d5cd20912c4f73620cc5eea96f8adf81598a026)]
 - 📝 generated changelog [[7764417](https://github.com/wijourdil/ntfy-notification-channel/commit/7764417ed5972e1b9613f05867abe8892f67396f)]
 
 
