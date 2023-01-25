@@ -3,9 +3,18 @@
 <a name="next"></a>
 ## next
 
+### Added
+
+- 👷‍♂️ Allow to generate changelog manually [[434a0f8](https://github.com/wijourdil/ntfy-notification-channel/commit/434a0f8bf23e611708c35fc18d6940fba8330c56)]
+
+
+<a name="1.1.0"></a>
+## 1.1.0 (2023-01-25)
+
 ### Miscellaneous
 
 - 🔀 ⬆️ Update for PHP8.2 ([#5](https://github.com/wijourdil/ntfy-notification-channel/issues/5)) [[a6642fc](https://github.com/wijourdil/ntfy-notification-channel/commit/a6642fc0746c2b00676583845a1f2a69eb3b0564)]
+- 📝 generated changelog [[eccceeb](https://github.com/wijourdil/ntfy-notification-channel/commit/eccceebf114e4b4ab63f96e6950d8032e3d1d3f0)]
 - 📝 generated changelog [[75e65e4](https://github.com/wijourdil/ntfy-notification-channel/commit/75e65e4af22598c42070ab91faf9612792d6bde5)]
 
 
