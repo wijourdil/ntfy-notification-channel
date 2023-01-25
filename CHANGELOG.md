@@ -10,6 +10,8 @@
 
 ### Miscellaneous
 
+- 📝 Update badges in README.md [[c9472ea](https://github.com/wijourdil/ntfy-notification-channel/commit/c9472ea60c333c4ce3c7837de83fda8690f9d146)]
+- 📝 generated changelog [[fd3d287](https://github.com/wijourdil/ntfy-notification-channel/commit/fd3d28754800cb0a9735b25ca161c03271b4f805)]
 - 📝 generated changelog [[dadd632](https://github.com/wijourdil/ntfy-notification-channel/commit/dadd6322a37cee564d5d5286fa2e30d355892b90)]
 
 
