@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - '**.php'
+    branches: [main]
 
 jobs:
   php-code-styling:
