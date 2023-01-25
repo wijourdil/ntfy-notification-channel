@@ -1,9 +1,9 @@
 # ntfy.sh Notification Channel for Laravel
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/wijourdil/ntfy-notification-channel.svg?style=flat-square)](https://packagist.org/packages/wijourdil/ntfy-notification-channel)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/wijourdil/ntfy-notification-channel/run-tests?label=tests)](https://github.com/wijourdil/ntfy-notification-channel/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/wijourdil/ntfy-notification-channel/Fix%20PHP%20code%20style%20issues?label=code%20style)](https://github.com/wijourdil/ntfy-notification-channel/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/wijourdil/ntfy-notification-channel.svg?style=flat-square)](https://packagist.org/packages/wijourdil/ntfy-notification-channel)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/wijourdil/ntfy-notification-channel.svg)](https://packagist.org/packages/wijourdil/ntfy-notification-channel)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/wijourdil/ntfy-notification-channel/run-tests.yml?branch=main&label=tests)](https://github.com/wijourdil/ntfy-notification-channel/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/wijourdil/ntfy-notification-channel/fix-php-code-style-issues.yml?label=code%20style&branch=main)](https://github.com/wijourdil/ntfy-notification-channel/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/wijourdil/ntfy-notification-channel.svg)](https://packagist.org/packages/wijourdil/ntfy-notification-channel)
 
 This package adds a Laravel Notification Channel to sent messages via [ntfy](https://ntfy.sh).
 It's build on top of the [verifiedjoseph/ntfy-php-library](https://github.com/VerifiedJoseph/ntfy-php-library) package.
