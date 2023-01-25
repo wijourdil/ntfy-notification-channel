@@ -5,7 +5,12 @@
 
 ### Added
 
+- 👷‍♂️ Run fix php code styling only on branch push [[4b535f9](https://github.com/wijourdil/ntfy-notification-channel/commit/4b535f940178e98e03e13e658ce98228f9b12e31)]
 - 👷‍♂️ Allow to generate changelog manually [[434a0f8](https://github.com/wijourdil/ntfy-notification-channel/commit/434a0f8bf23e611708c35fc18d6940fba8330c56)]
+
+### Miscellaneous
+
+- 📝 generated changelog [[dadd632](https://github.com/wijourdil/ntfy-notification-channel/commit/dadd6322a37cee564d5d5286fa2e30d355892b90)]
 
 
 <a name="1.1.0"></a>
