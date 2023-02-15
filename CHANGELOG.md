@@ -1,16 +1,23 @@
 # Changelog
 
-<a name="next"></a>
-## next
+<a name="2.0.0"></a>
+## 2.0.0 (2023-02-15)
 
 ### Added
 
 - 👷‍♂️ Run fix php code styling only on branch push [[4b535f9](https://github.com/wijourdil/ntfy-notification-channel/commit/4b535f940178e98e03e13e658ce98228f9b12e31)]
 - 👷‍♂️ Allow to generate changelog manually [[434a0f8](https://github.com/wijourdil/ntfy-notification-channel/commit/434a0f8bf23e611708c35fc18d6940fba8330c56)]
 
+### Changed
+
+- ⬆️ Bump dependabot/fetch-metadata from 1.3.5 to 1.3.6 ([#6](https://github.com/wijourdil/ntfy-notification-channel/issues/6)) [[07492df](https://github.com/wijourdil/ntfy-notification-channel/commit/07492dfefe5311e2b621ab5c055f75d70d6fe83b)]
+
 ### Miscellaneous
 
+- 🔀 ⬆️ Upgrade package minimum dependency to Laravel 10 ([#7](https://github.com/wijourdil/ntfy-notification-channel/issues/7)) [[1d7cf2d](https://github.com/wijourdil/ntfy-notification-channel/commit/1d7cf2d17a4421c0b2a221f7967dabca08fff178)]
+-  Fix styling [[f405ce0](https://github.com/wijourdil/ntfy-notification-channel/commit/f405ce09b6dd852a053e948c41cc089a91b3465c)]
 - 📝 Update badges in README.md [[c9472ea](https://github.com/wijourdil/ntfy-notification-channel/commit/c9472ea60c333c4ce3c7837de83fda8690f9d146)]
+- 📝 generated changelog [[7e2aa50](https://github.com/wijourdil/ntfy-notification-channel/commit/7e2aa50ea3d325efe1fc0bc8ead64c510177f1e2)]
 - 📝 generated changelog [[fd3d287](https://github.com/wijourdil/ntfy-notification-channel/commit/fd3d28754800cb0a9735b25ca161c03271b4f805)]
 - 📝 generated changelog [[dadd632](https://github.com/wijourdil/ntfy-notification-channel/commit/dadd6322a37cee564d5d5286fa2e30d355892b90)]
 
