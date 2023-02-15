@@ -156,6 +156,7 @@ class SendNotificationViaNtfyTest extends TestCase
 
     /**
      * @test
+     *
      * @dataProvider wrongConfigurationDataProvider
      */
     public function it_cannot_sent_ntfy_notification_if_config_is_not_valid(array $configuration)
