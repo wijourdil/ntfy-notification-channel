@@ -181,7 +181,7 @@ class SendNotificationViaNtfyTest extends TestCase
         FakeSendService::assertNothingSent();
     }
 
-    public function wrongConfigurationDataProvider(): array
+    public static function wrongConfigurationDataProvider(): array
     {
         return [
             [
