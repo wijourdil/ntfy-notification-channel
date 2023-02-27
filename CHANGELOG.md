@@ -1,5 +1,17 @@
 # Changelog
 
+<a name="next"></a>
+## next
+
+### Changed
+
+- ⬆️ Bump actions/checkout from 2 to 3 ([#8](https://github.com/wijourdil/ntfy-notification-channel/issues/8)) [[fc921cc](https://github.com/wijourdil/ntfy-notification-channel/commit/fc921cc8e056dec80d70a650838d44ae853d99c3)]
+
+### Miscellaneous
+
+- 📝 generated changelog [[a034fbe](https://github.com/wijourdil/ntfy-notification-channel/commit/a034fbe9f0badd2060891435def83ab68d5f89a5)]
+
+
 <a name="2.0.0"></a>
 ## 2.0.0 (2023-02-15)
 
