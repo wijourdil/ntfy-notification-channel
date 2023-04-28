@@ -3,12 +3,33 @@
 <a name="next"></a>
 ## next
 
+### Added
+
+- 👷‍♂️ Use another github action to generate changelog [[17370e0](https://github.com/wijourdil/ntfy-notification-channel/commit/17370e0a6069b76081ea77e79c75d34ebb016f03)]
+
+
+<a name="2.0.1"></a>
+## 2.0.1 (2023-04-28)
+
+### Added
+
+- ✅ Upgrade min required version of phpunit to 10.1 [[d5ffd21](https://github.com/wijourdil/ntfy-notification-channel/commit/d5ffd2183912d4549c624923df78345b9a148b46)]
+- 👷‍♂️ Run phpstan analysis everytime with tests [[d65a2b0](https://github.com/wijourdil/ntfy-notification-channel/commit/d65a2b08549887c20856a71f8b8a160dc8b8695c)]
+
 ### Changed
 
+- 🔧 Migrate phpunit config [[0d9ee5f](https://github.com/wijourdil/ntfy-notification-channel/commit/0d9ee5f5b7b486c798a45bdb0ba71e97ed9a5bb9)]
+- ⬆️ Bump dependabot/fetch-metadata from 1.3.6 to 1.4.0 ([#10](https://github.com/wijourdil/ntfy-notification-channel/issues/10)) [[2663321](https://github.com/wijourdil/ntfy-notification-channel/commit/2663321a9ba88f8b7da23731da40d9861a66e2d6)]
+- ⬆️ Bump aglipanci/laravel-pint-action from 2.1.0 to 2.2.0 ([#9](https://github.com/wijourdil/ntfy-notification-channel/issues/9)) [[7ae1bbf](https://github.com/wijourdil/ntfy-notification-channel/commit/7ae1bbf19b639e73bd0e344fa602a8b8fcfd9712)]
 - ⬆️ Bump actions/checkout from 2 to 3 ([#8](https://github.com/wijourdil/ntfy-notification-channel/issues/8)) [[fc921cc](https://github.com/wijourdil/ntfy-notification-channel/commit/fc921cc8e056dec80d70a650838d44ae853d99c3)]
+
+### Fixed
+
+- 🐛 Use the new Auth\User class in service [[99a24bf](https://github.com/wijourdil/ntfy-notification-channel/commit/99a24bf4db80e89602986b8ae1b2351bfc4789f8)]
 
 ### Miscellaneous
 
+- 📝 generated changelog [[ddcb431](https://github.com/wijourdil/ntfy-notification-channel/commit/ddcb4316307e2b30e87310c0830af99fb1f1792a)]
 - 📝 generated changelog [[a034fbe](https://github.com/wijourdil/ntfy-notification-channel/commit/a034fbe9f0badd2060891435def83ab68d5f89a5)]
 
 
