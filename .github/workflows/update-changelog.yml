@@ -19,4 +19,6 @@ jobs:
           fetch-depth: 0 # Required for fetch all history
 
       - name: Gitmoji Changelog Action
-        uses: MarkLyck/gitmoji-changelog-action@1.0.1
+        uses: sercanuste/gitmoji-changelog-action@v1
+        with:
+          preset: "node"

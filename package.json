@@ -1,0 +1,5 @@
+{
+    "name": "ntfy-notification-channel",
+    "description": "ntfy.sh Notification Channel for Laravel",
+    "version": "1.0.0"
+}
