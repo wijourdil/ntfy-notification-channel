@@ -7,6 +7,17 @@
 
 - 👷‍♂️ Use another github action to generate changelog [[17370e0](https://github.com/wijourdil/ntfy-notification-channel/commit/17370e0a6069b76081ea77e79c75d34ebb016f03)]
 
+### Changed
+
+- ⬆️ Bump actions/checkout from 3 to 4 [[8c90137](https://github.com/wijourdil/ntfy-notification-channel/commit/8c90137173e6e111667727beadceaa5187a490ca)]
+- ⬆️ Bump dependabot/fetch-metadata from 1.5.1 to 1.6.0 ([#14](https://github.com/wijourdil/ntfy-notification-channel/issues/14)) [[df37e25](https://github.com/wijourdil/ntfy-notification-channel/commit/df37e252a5fd734ea52908189a8a776e9d513200)]
+- ⬆️ Bump dependabot/fetch-metadata from 1.4.0 to 1.5.1 ([#13](https://github.com/wijourdil/ntfy-notification-channel/issues/13)) [[b22df89](https://github.com/wijourdil/ntfy-notification-channel/commit/b22df89b72117af40af061429fb1c0984ddf7da8)]
+- ⬆️ Bump aglipanci/laravel-pint-action from 2.2.0 to 2.3.0 ([#12](https://github.com/wijourdil/ntfy-notification-channel/issues/12)) [[fc1f056](https://github.com/wijourdil/ntfy-notification-channel/commit/fc1f05641db414fad3d7f1076f33c811dcaa2050)]
+
+### Miscellaneous
+
+- 📝 Update CHANGELOG [[def73e1](https://github.com/wijourdil/ntfy-notification-channel/commit/def73e1e424eaacd0d3bf30e8e26d2c8d064b208)]
+
 
 <a name="2.0.1"></a>
 ## 2.0.1 (2023-04-28)
