@@ -9,6 +9,7 @@
 
 ### Changed
 
+- ⬆️ Bump ramsey/composer-install from 2 to 3 [[7073668](https://github.com/wijourdil/ntfy-notification-channel/commit/70736688be27fddbfbbab620b4ee0119790cb4bb)]
 - ⬆️ Bump stefanzweifel/git-auto-commit-action from 4 to 5 [[c91f4a3](https://github.com/wijourdil/ntfy-notification-channel/commit/c91f4a3667ee1295d91c79ee39b1d8101e256571)]
 - ⬆️ Bump aglipanci/laravel-pint-action from 2.3.0 to 2.3.1 ([#17](https://github.com/wijourdil/ntfy-notification-channel/issues/17)) [[00601e8](https://github.com/wijourdil/ntfy-notification-channel/commit/00601e81d60c6d8f910b80faa6a8835b7a5edb03)]
 - ⬆️ Bump actions/checkout from 3 to 4 [[8c90137](https://github.com/wijourdil/ntfy-notification-channel/commit/8c90137173e6e111667727beadceaa5187a490ca)]
@@ -18,6 +19,7 @@
 
 ### Miscellaneous
 
+- 📝 Update CHANGELOG [[cb1cebf](https://github.com/wijourdil/ntfy-notification-channel/commit/cb1cebf7566ababde751cda5f167d5d6cb1ccbc0)]
 - 📝 Update CHANGELOG [[e4a078b](https://github.com/wijourdil/ntfy-notification-channel/commit/e4a078b50555e57b5481856993935ac702b8e7d3)]
 - 📝 Update CHANGELOG [[def73e1](https://github.com/wijourdil/ntfy-notification-channel/commit/def73e1e424eaacd0d3bf30e8e26d2c8d064b208)]
 
