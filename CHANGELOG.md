@@ -1,33 +1,14 @@
 # Changelog
 
-<a name="next"></a>
-## next
+<a name="4.0.0"></a>
+## 4.0.0 (2025-05-14)
 
-### Added
+- ⬆️ Upgrade to Laravel 12
 
-- 👷‍♂️ Use another github action to generate changelog [[17370e0](https://github.com/wijourdil/ntfy-notification-channel/commit/17370e0a6069b76081ea77e79c75d34ebb016f03)]
+<a name="3.0.0"></a>
+## 3.0.0 (2024-04-17)
 
-### Changed
-
-- ⬆️ Upgrade to Laravel 11 [[508ad1f](https://github.com/wijourdil/ntfy-notification-channel/commit/508ad1f0e1852b0bed966e9ebbf6f760ca2bac7b)]
-- ⬆️ Bump aglipanci/laravel-pint-action from 2.3.1 to 2.4 ([#20](https://github.com/wijourdil/ntfy-notification-channel/issues/20)) [[628e5db](https://github.com/wijourdil/ntfy-notification-channel/commit/628e5db33e98a4fefda17182d10b4e898fff3533)]
-- ⬆️ Bump dependabot/fetch-metadata from 1.6.0 to 2.0.0 [[6071525](https://github.com/wijourdil/ntfy-notification-channel/commit/60715259a8b73dfcee5b2d35cae35ecb24bbaa4f)]
-- ⬆️ Bump ramsey/composer-install from 2 to 3 [[7073668](https://github.com/wijourdil/ntfy-notification-channel/commit/70736688be27fddbfbbab620b4ee0119790cb4bb)]
-- ⬆️ Bump stefanzweifel/git-auto-commit-action from 4 to 5 [[c91f4a3](https://github.com/wijourdil/ntfy-notification-channel/commit/c91f4a3667ee1295d91c79ee39b1d8101e256571)]
-- ⬆️ Bump aglipanci/laravel-pint-action from 2.3.0 to 2.3.1 ([#17](https://github.com/wijourdil/ntfy-notification-channel/issues/17)) [[00601e8](https://github.com/wijourdil/ntfy-notification-channel/commit/00601e81d60c6d8f910b80faa6a8835b7a5edb03)]
-- ⬆️ Bump actions/checkout from 3 to 4 [[8c90137](https://github.com/wijourdil/ntfy-notification-channel/commit/8c90137173e6e111667727beadceaa5187a490ca)]
-- ⬆️ Bump dependabot/fetch-metadata from 1.5.1 to 1.6.0 ([#14](https://github.com/wijourdil/ntfy-notification-channel/issues/14)) [[df37e25](https://github.com/wijourdil/ntfy-notification-channel/commit/df37e252a5fd734ea52908189a8a776e9d513200)]
-- ⬆️ Bump dependabot/fetch-metadata from 1.4.0 to 1.5.1 ([#13](https://github.com/wijourdil/ntfy-notification-channel/issues/13)) [[b22df89](https://github.com/wijourdil/ntfy-notification-channel/commit/b22df89b72117af40af061429fb1c0984ddf7da8)]
-- ⬆️ Bump aglipanci/laravel-pint-action from 2.2.0 to 2.3.0 ([#12](https://github.com/wijourdil/ntfy-notification-channel/issues/12)) [[fc1f056](https://github.com/wijourdil/ntfy-notification-channel/commit/fc1f05641db414fad3d7f1076f33c811dcaa2050)]
-
-### Miscellaneous
-
-- 📝 Update CHANGELOG [[1feac2d](https://github.com/wijourdil/ntfy-notification-channel/commit/1feac2db77819c49aeab5201d5652eaace18a018)]
-- 📝 Update CHANGELOG [[61aa1a0](https://github.com/wijourdil/ntfy-notification-channel/commit/61aa1a014bf03a3cca8f0dad399f5fed70d49b78)]
-- 📝 Update CHANGELOG [[cb1cebf](https://github.com/wijourdil/ntfy-notification-channel/commit/cb1cebf7566ababde751cda5f167d5d6cb1ccbc0)]
-- 📝 Update CHANGELOG [[e4a078b](https://github.com/wijourdil/ntfy-notification-channel/commit/e4a078b50555e57b5481856993935ac702b8e7d3)]
-- 📝 Update CHANGELOG [[def73e1](https://github.com/wijourdil/ntfy-notification-channel/commit/def73e1e424eaacd0d3bf30e8e26d2c8d064b208)]
-
+- ⬆️ Upgrade to Laravel 11
 
 <a name="2.0.1"></a>
 ## 2.0.1 (2023-04-28)
