@@ -3,6 +3,7 @@
 namespace Wijourdil\NtfyNotificationChannel\Tests;
 
 use Ntfy\Message;
+use PHPUnit\Framework\Attributes\DataProvider;
 use Webmozart\Assert\InvalidArgumentException;
 use Wijourdil\NtfyNotificationChannel\Channels\NtfyChannel;
 use Wijourdil\NtfyNotificationChannel\Services\FakeSendService;
@@ -22,8 +23,7 @@ class SendNotificationViaNtfyTest extends TestCase
         $this->channel = app(NtfyChannel::class);
     }
 
-    /** @test */
-    public function it_can_send_ntfy_notification_with_auth_if_config_is_ok()
+    public function test_it_can_send_ntfy_notification_with_auth_if_config_is_ok()
     {
         $this->app->config['ntfy-notification-channel'] = [
             'server' => '127.0.0.1',
@@ -57,8 +57,7 @@ class SendNotificationViaNtfyTest extends TestCase
         );
     }
 
-    /** @test */
-    public function it_can_send_ntfy_notification_without_auth_if_config_is_ok()
+    public function test_it_can_send_ntfy_notification_without_auth_if_config_is_ok()
     {
         $this->app->config['ntfy-notification-channel'] = [
             'server' => '127.0.0.1',
@@ -92,8 +91,7 @@ class SendNotificationViaNtfyTest extends TestCase
         );
     }
 
-    /** @test */
-    public function it_cannot_send_ntfy_notification_if_notification_does_not_implement_to_ntfy_method()
+    public function test_it_cannot_send_ntfy_notification_if_notification_does_not_implement_to_ntfy_method()
     {
         $this->app->config['ntfy-notification-channel'] = [
             'server' => '127.0.0.1',
@@ -123,8 +121,7 @@ class SendNotificationViaNtfyTest extends TestCase
         FakeSendService::assertNothingSent();
     }
 
-    /** @test */
-    public function it_cannot_send_ntfy_notification_if_notification_method_to_ntfy_does_not_return_right_type()
+    public function test_it_cannot_send_ntfy_notification_if_notification_method_to_ntfy_does_not_return_right_type()
     {
         $this->app->config['ntfy-notification-channel'] = [
             'server' => '127.0.0.1',
@@ -154,12 +151,8 @@ class SendNotificationViaNtfyTest extends TestCase
         FakeSendService::assertNothingSent();
     }
 
-    /**
-     * @test
-     *
-     * @dataProvider wrongConfigurationDataProvider
-     */
-    public function it_cannot_sent_ntfy_notification_if_config_is_not_valid(array $configuration)
+    #[DataProvider('wrongConfigurationDataProvider')]
+    public function test_it_cannot_sent_ntfy_notification_if_config_is_not_valid(array $configuration)
     {
         $this->app->config['ntfy-notification-channel'] = $configuration;
 
