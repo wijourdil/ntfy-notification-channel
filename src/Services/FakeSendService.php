@@ -38,8 +38,8 @@ class FakeSendService extends AbstractSendService
     public static function assertLastAttemptConfig(
         string $serverUrl,
         bool $authEnabled,
-        string $username = null,
-        string $password = null,
+        ?string $username = null,
+        ?string $password = null,
     ): void {
         PHPUnit::assertEquals(self::$lastSentMessageConfig, [
             'server' => $serverUrl,

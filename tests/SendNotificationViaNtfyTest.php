@@ -34,7 +34,7 @@ class SendNotificationViaNtfyTest extends TestCase
             ],
         ];
 
-        $notifiable = new DummyNotifiable();
+        $notifiable = new DummyNotifiable;
         $notification = new DummyWorkingNotification(
             topic: 'test',
             title: 'My Notification',
@@ -69,7 +69,7 @@ class SendNotificationViaNtfyTest extends TestCase
             ],
         ];
 
-        $notifiable = new DummyNotifiable();
+        $notifiable = new DummyNotifiable;
         $notification = new DummyWorkingNotification(
             topic: 'test',
             title: 'My Notification',
@@ -93,7 +93,7 @@ class SendNotificationViaNtfyTest extends TestCase
     }
 
     /** @test */
-    public function it_cannot_send_ntfy_notification_if_notification_does_not_implement_toNtfy_method()
+    public function it_cannot_send_ntfy_notification_if_notification_does_not_implement_to_ntfy_method()
     {
         $this->app->config['ntfy-notification-channel'] = [
             'server' => '127.0.0.1',
@@ -104,7 +104,7 @@ class SendNotificationViaNtfyTest extends TestCase
             ],
         ];
 
-        $notifiable = new DummyNotifiable();
+        $notifiable = new DummyNotifiable;
         $notification = new DummyWrongNotificationWithoutMethod(
             topic: 'test',
             title: 'My Notification',
@@ -124,7 +124,7 @@ class SendNotificationViaNtfyTest extends TestCase
     }
 
     /** @test */
-    public function it_cannot_send_ntfy_notification_if_notification_method_toNtfy_does_not_return_right_type()
+    public function it_cannot_send_ntfy_notification_if_notification_method_to_ntfy_does_not_return_right_type()
     {
         $this->app->config['ntfy-notification-channel'] = [
             'server' => '127.0.0.1',
@@ -135,7 +135,7 @@ class SendNotificationViaNtfyTest extends TestCase
             ],
         ];
 
-        $notifiable = new DummyNotifiable();
+        $notifiable = new DummyNotifiable;
         $notification = new DummyWrongNotificationWithWrongReturnType(
             topic: 'test',
             title: 'My Notification',
@@ -163,7 +163,7 @@ class SendNotificationViaNtfyTest extends TestCase
     {
         $this->app->config['ntfy-notification-channel'] = $configuration;
 
-        $notifiable = new DummyNotifiable();
+        $notifiable = new DummyNotifiable;
         $notification = new DummyWorkingNotification(
             topic: 'test',
             title: 'My Notification',

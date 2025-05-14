@@ -9,9 +9,7 @@ use Wijourdil\NtfyNotificationChannel\Services\AbstractSendService;
 
 class NtfyChannel
 {
-    public function __construct(private readonly AbstractSendService $sender)
-    {
-    }
+    public function __construct(private readonly AbstractSendService $sender) {}
 
     /**
      * Send the given notification.

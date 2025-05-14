@@ -12,6 +12,5 @@ abstract class AbstractDummyNotification extends Notification
         protected readonly string $body,
         protected readonly string $priority,
         protected readonly array $tags,
-    ) {
-    }
+    ) {}
 }
