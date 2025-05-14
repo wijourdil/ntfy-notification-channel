@@ -8,7 +8,7 @@ class DummyWrongNotificationWithWrongReturnType extends AbstractDummyNotificatio
 {
     public function toNtfy($notifiable): array
     {
-        $message = new Message();
+        $message = new Message;
 
         $message->topic($this->topic);
         $message->body($this->body);

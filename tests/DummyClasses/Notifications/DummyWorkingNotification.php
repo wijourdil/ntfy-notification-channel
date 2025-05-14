@@ -8,7 +8,7 @@ class DummyWorkingNotification extends AbstractDummyNotification
 {
     public function toNtfy($notifiable): Message
     {
-        $message = new Message();
+        $message = new Message;
 
         $message->topic($this->topic);
         $message->body($this->body);
