@@ -23,7 +23,6 @@ class NtfyChannel
     {
         Assert::methodExists($notification, 'toNtfy', 'The method toNtfy() must be defined in the '.Notification::class.' class.');
 
-        /** @var Message $message */
         $message = $notification->toNtfy($notifiable);
 
         Assert::isInstanceOf($message, Message::class, 'The toNtfy() method must return a '.Message::class.' object.');
