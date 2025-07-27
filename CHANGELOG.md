@@ -1,5 +1,10 @@
 # Changelog
 
+<a name="4.1.0"></a>
+## 4.1.0 (2025-07-27)
+
+- ➖ Remove unused package `thecodingmachine/safe` from required dependencies
+
 <a name="4.0.0"></a>
 ## 4.0.0 (2025-05-14)
 
