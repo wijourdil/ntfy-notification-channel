@@ -1,5 +1,11 @@
 # Changelog
 
+<a name="5.0.0"></a>
+## 5.0.0 (2026-03-24)
+
+- ⬆️ Upgrade to Laravel 13
+- ⬆️ Upgrade webmozart/assert package to ^2.0
+
 <a name="4.1.0"></a>
 ## 4.1.0 (2025-07-27)
 
