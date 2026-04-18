@@ -48,4 +48,17 @@ abstract class AbstractSendService
 
         return (string) $password;
     }
+
+    protected function getAuthToken(): ?string
+    {
+        $token = config('ntfy-notification-channel.authentication.token');
+
+        if ($this->isAuthEnabled()) {
+            Assert::string($token, 'ntfy auth token must be a string.');
+        } else {
+            Assert::nullOrString($token, 'ntfy auth token must be a string.');
+        }
+
+        return $token !== null ? (string) $token : null;
+    }
 }
