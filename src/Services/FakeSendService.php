@@ -40,6 +40,7 @@ class FakeSendService extends AbstractSendService
         bool $authEnabled,
         ?string $username = null,
         ?string $password = null,
+        ?string $token = null,
     ): void {
         PHPUnit::assertEquals(self::$lastSentMessageConfig, [
             'server' => $serverUrl,
@@ -47,6 +48,7 @@ class FakeSendService extends AbstractSendService
                 'enabled' => $authEnabled,
                 'username' => $username,
                 'password' => $password,
+                'token' => $token,
             ],
         ]);
     }
@@ -59,6 +61,7 @@ class FakeSendService extends AbstractSendService
                 'enabled' => $this->isAuthEnabled(),
                 'username' => $this->getAuthUsername(),
                 'password' => $this->getAuthPassword(),
+                'token' => $this->getAuthToken(),
             ],
         ];
 

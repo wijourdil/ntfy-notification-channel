@@ -57,6 +57,38 @@ class SendNotificationViaNtfyTest extends TestCase
         );
     }
 
+    public function test_it_can_send_ntfy_notification_with_auth_token_if_config_is_ok()
+    {
+        $this->app->config['ntfy-notification-channel'] = [
+            'server' => '127.0.0.1',
+            'authentication' => [
+                'enabled' => true,
+                'token' => '12345',
+            ],
+        ];
+
+        $notifiable = new DummyNotifiable;
+        $notification = new DummyWorkingNotification(
+            topic: 'test',
+            title: 'My Notification',
+            body: 'Blah blah blah',
+            priority: Message::PRIORITY_LOW,
+            tags: ['warning']
+        );
+
+        $this->channel->send(
+            $notifiable,
+            $notification
+        );
+
+        FakeSendService::assertLastSentMessage($notification->toNtfy($notifiable));
+        FakeSendService::assertLastAttemptConfig(
+            serverUrl: '127.0.0.1',
+            authEnabled: true,
+            token: '12345',
+        );
+    }
+
     public function test_it_can_send_ntfy_notification_without_auth_if_config_is_ok()
     {
         $this->app->config['ntfy-notification-channel'] = [
@@ -213,6 +245,19 @@ class SendNotificationViaNtfyTest extends TestCase
                             'enabled' => true,
                             'username' => null,
                             'password' => 'test',
+                        ],
+                    ],
+                ],
+            ],
+            [
+                'configuration' => [
+                    [
+                        'server' => '127.0.0.1',
+                        'authentication' => [
+                            'enabled' => true,
+                            'username' => null,
+                            'password' =>  null,
+                            'token' =>  null,
                         ],
                     ],
                 ],

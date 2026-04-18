@@ -35,6 +35,8 @@ By default, authentication is disabled. If you want to connect using credentials
 NTFY_AUTH_ENABLED=true
 NTFY_AUTH_USERNAME=michel
 NTFY_AUTH_PASSWORD=m0tDeP4ss3
+# alternatively, use token instead of username and password
+NTFY_AUTH_TOKEN="tk_mo0babk5gtg2suidltq5d8r7o2a67"
 ```
 
 To see default values and other settings, see the `config/ntfy-notification-channel.php` config file.
