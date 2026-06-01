@@ -14,7 +14,7 @@ class NtfySendService extends AbstractSendService
     {
         if ($this->isAuthEnabled()
             && $this->getAuthToken() !== null
-        ){
+        ) {
             $auth = new Token($this->getAuthToken());
         }
 
@@ -22,7 +22,7 @@ class NtfySendService extends AbstractSendService
             && $this->getAuthToken() == null
             && $this->getAuthUsername() !== null
             && $this->getAuthPassword() !== null
-        ){
+        ) {
             $auth = new User(
                 $this->getAuthUsername(),
                 $this->getAuthPassword()
