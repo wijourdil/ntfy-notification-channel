@@ -32,10 +32,14 @@ NTFY_SERVER=https://ntfy.example.com
 
 By default, authentication is disabled. If you want to connect using credentials, you can also configure it within you `.env` file:
 ```dotenv
+# Activate authentication by setting this variable to `true`
 NTFY_AUTH_ENABLED=true
+
+# You can either authenticate with username & password...
 NTFY_AUTH_USERNAME=michel
 NTFY_AUTH_PASSWORD=m0tDeP4ss3
-# alternatively, use token instead of username and password
+
+# ... or with a token instead of username and password
 NTFY_AUTH_TOKEN="tk_mo0babk5gtg2suidltq5d8r7o2a67"
 ```
 

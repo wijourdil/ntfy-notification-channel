@@ -1,5 +1,10 @@
 # Changelog
 
+<a name="5.1.0"></a>
+## 5.1.0 (2026-06-01)
+
+- Allow to authenticate with auth token instead of credentials (username/password) #39 by @wivaku
+
 <a name="5.0.0"></a>
 ## 5.0.0 (2026-03-24)
 
