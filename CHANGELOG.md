@@ -3,7 +3,7 @@
 <a name="5.1.0"></a>
 ## 5.1.0 (2026-06-01)
 
-- Allow to authenticate with auth token instead of credentials (username/password) #39 by @wivaku
+- Allow to authenticate with auth token instead of credentials (username/password) in https://github.com/wijourdil/ntfy-notification-channel/pull/39 by [@wivaku](https://github.com/wivaku)
 
 <a name="5.0.0"></a>
 ## 5.0.0 (2026-03-24)
