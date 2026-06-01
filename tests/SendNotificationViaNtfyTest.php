@@ -256,8 +256,8 @@ class SendNotificationViaNtfyTest extends TestCase
                         'authentication' => [
                             'enabled' => true,
                             'username' => null,
-                            'password' =>  null,
-                            'token' =>  null,
+                            'password' => null,
+                            'token' => null,
                         ],
                     ],
                 ],
